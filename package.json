@@ -6,7 +6,7 @@
     "@vueuse/core": "^14.0.0",
     "@vueuse/shared": "^14.0.0",
     "animate.css": "^4.1.1",
-    "element-plus": "^2.11.7",
+    "element-plus": "^2.11.8",
     "fomantic-ui-css": "^2.9.4",
     "hover.css": "^2.3.2",
     "jarallax": "^2.2.1",
