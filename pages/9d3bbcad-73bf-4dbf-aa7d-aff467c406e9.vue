@@ -30,8 +30,8 @@
                 <div class="ui basic segment" style="width: 50%;">
                     <p><i class="envelope large icon" style="color: lightskyblue;"><!-- icon--></i></p>
                     <p style="color: #dcdcdc;">Вопросы об использовании или приобретении материалов, Ваши предложения,
-                        отзывы, а также другие вопросы присылайте на почту:<br><a href="mailto:energymeyou@gmail.com"
-                            style="text-decoration: none; color: lightskyblue;">energymeyou@gmail.com</a><br><br>Согласие
+                        отзывы, а также другие вопросы присылайте на почту:<br><a href="mailto:briusova@gmail.com"
+                            style="text-decoration: none; color: lightskyblue;">briusova@gmail.com</a><br><br>Согласие
                         на
                         обработку данных не требуется, ничего не обрабатывается.</p>
                 </div>
@@ -43,9 +43,7 @@
                         дополнительной
                         консультации врача. Все данные, опубликованные на сайте приведены исключительно для
                         ознакомления,
-                        носят информационный характер и не являются публичной офертой, определяемой положениями ч. 2 ст.
-                        437
-                        Гражданского кодекса РФ.</p>
+                        носят информационный характер. На сайте отсутствуют cookies, аналитика и формы сбора данных.</p>
                 </div>
             </div>
             <p>&nbsp;</p>

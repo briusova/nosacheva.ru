@@ -6,7 +6,7 @@
                     style="font-family: Arsenal, sans-serif;"><i class="hvr-icon !h-28 icon mx-auto"
                         :class="page.i"></i><span class="ui">{{ page.title }}<span class="sub header">{{
                             page.description
-                        }}</span></span></a></div>
+                            }}</span></span></a></div>
         </div>
     </div>
     <p>&nbsp;</p>
@@ -94,10 +94,38 @@
                 v-for="({ src, title, alt }, index) in img9" :src="src" :preview-src-list="srcList9"
                 :initial-index="index" fit="cover" :alt="alt" :title="title" preview-teleported></el-image></div>
         <p>&nbsp;</p>
+
+
+<p>Будни Школы саморегуляции</p>
+        <div class="ui centered small images"><el-image class="ui rounded image"
+                v-for="({ src, title, alt }, index) in img10" :src="src" :preview-src-list="srcList10"
+                :initial-index="index" fit="cover" :alt="alt" :title="title" preview-teleported></el-image></div>
+        <p>&nbsp;</p>
+
+
+
+        <p>Отзывы о Школе саморегуляции и после приёмов у Наталии Носачевой</p>
+        <p>Отзывы размещались на сайте Школы https://natalie-school.ru. Сейчас сайт Школы закрыт.</p>
+        <div class="ui centered small images"><el-image class="ui rounded image"
+                v-for="({ src, title, alt }, index) in img11" :src="src" :preview-src-list="srcList11"
+                :initial-index="index" fit="cover" :alt="alt" :title="title" preview-teleported></el-image></div>
+        <p>&nbsp;</p>
+
         <router-link :to="page.parent.to" class="ui labeled icon fluid red button"
             style="font-family: Arsenal, sans-serif;"><i class="left arrow icon"></i>на
             главную</router-link>
+
+
+
+
+
+
+            
     </div>
+
+
+
+
 </template>
 
 <script setup>
@@ -293,6 +321,222 @@ const { id } = defineProps(["id"]),
     srcList8 = img8.map(({ src1 }) => src1),
     img9 = [{ src1: "files/foto/chelov/s1.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s1_m.jpg", alt: "Носачева Наталия" }, { src1: "files/foto/chelov/s2.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s2_m.jpg", alt: "Носачева Наталия" }, { src1: "files/foto/chelov/s3.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s3_m.jpg", alt: "Носачева Наталия" }, { src1: "files/foto/chelov/s4.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s4_m.jpg", alt: "Носачева Наталия" }, { src1: "files/foto/chelov/s5.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s5_m.jpg", alt: "Носачева Наталия" }, { src1: "files/foto/chelov/s6.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s6_m.jpg", alt: "Носачева Наталия" }, { src1: "files/foto/chelov/s7.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s7_m.jpg", alt: "Носачева Наталия" }, { src1: "files/foto/chelov/s8.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s8_m.jpg", alt: "Носачева Наталия" }, { src1: "files/foto/chelov/s9.jpg", title: "Носачева Наталия", src: "files/foto/chelov/s9_m.jpg", alt: "Носачева Наталия" },],
     srcList9 = img9.map(({ src1 }) => src1);
+
+const img10 = [
+    {
+        src1: "images2/1.jpg",
+        title: "Носачева Наталия",
+        src: "images2/1m.jpg",
+        alt: "Носачева Наталия",
+    },
+    {
+        src1: "images2/2.jpg",
+        title: "Носачева Наталия",
+        src: "images2/2m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/3.jpg",
+        title: "Носачева Наталия",
+        src: "images2/3m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/4.jpg",
+        title: "Носачева Наталия",
+        src: "images2/4m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/5.jpg",
+        title: "Носачева Наталия",
+        src: "images2/5m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/6.jpg",
+        title: "Носачева Наталия",
+        src: "images2/6m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/7.jpg",
+        title: "Носачева Наталия",
+        src: "images2/7m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/8.jpg",
+        title: "Носачева Наталия",
+        src: "images2/8m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/9.jpg",
+        title: "Носачева Наталия",
+        src: "images2/9m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/10.jpg",
+        title: "Носачева Наталия",
+        src: "images2/10m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/11.jpg",
+        title: "Носачева Наталия",
+        src: "images2/11m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/12.jpg",
+        title: "Носачева Наталия",
+        src: "images2/12m.jpg",
+        alt: "Носачева Наталия",
+    },
+ {
+        src1: "images2/13.jpg",
+        title: "Носачева Наталия",
+        src: "images2/13m.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/14.jpg",
+        title: "Носачева Наталия",
+        src: "images2/14m.jpg",
+        alt: "Носачева Наталия",
+    },
+];
+
+const srcList10 = img10.map(({ src1 }) => src1);
+
+const img11 = [
+    {
+        src1: "images2/otzuv1.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuv1.jpg",
+        alt: "Носачева Наталия",
+    },
+    {
+        src1: "images2/otzuv2.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuv2.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuv3.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuv3.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuv4.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuv4.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuv5.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuv5.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw1.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw1.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw2.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw2.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw3.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw3.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw4.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw4.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw5.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw5.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw6.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw6.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw7.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw7.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw8.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw8.jpg",
+        alt: "Носачева Наталия",
+    },
+        {
+        src1: "images2/otzuw9.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw9.jpg",
+        alt: "Носачева Наталия",
+    },
+
+            {
+        src1: "images2/otzuw10.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw10.jpg",
+        alt: "Носачева Наталия",
+    },
+            {
+        src1: "images2/otzuw11.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw11.jpg",
+        alt: "Носачева Наталия",
+    },
+            {
+        src1: "images2/otzuw12.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw12.jpg",
+        alt: "Носачева Наталия",
+    },
+            {
+        src1: "images2/otzuw13.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw13.jpg",
+        alt: "Носачева Наталия",
+    },
+            {
+        src1: "images2/otzuw14.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw14.jpg",
+        alt: "Носачева Наталия",
+    },
+            {
+        src1: "images2/otzuw15.jpg",
+        title: "Носачева Наталия",
+        src: "images2/otzuw15.jpg",
+        alt: "Носачева Наталия",
+    },
+];
+
+const srcList11 = img11.map(({ src1 }) => src1);
+
 
 onMounted(() => { jarallax(jarallaxRef.value, {}) });
 </script>
