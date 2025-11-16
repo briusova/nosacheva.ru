@@ -1,9 +1,9 @@
 <template>
     <div ref="jarallaxRef" class="ui basic vertical fitted segment jarallax mceNonEditable  min-h-[60vh]" :style="`background-image:url(${url})`">
         <div class="ui active light dimmer">
-            <div class="content"><router-link class="ui header hvr-icon-wobble-vertical massive inverted icon" style="font-family: Arsenal, sans-serif;"><i class="hvr-icon !h-28 icon mx-auto" :class="page.i"></i><span class="ui">{{ page.title }}<span class="sub header">{{
+            <div class="content"><a class="ui header hvr-icon-wobble-vertical massive inverted icon" style="font-family: Arsenal, sans-serif;"><i class="hvr-icon !h-28 icon mx-auto" :class="page.i"></i><span class="ui">{{ page.title }}<span class="sub header">{{
                             page.description
-                        }}</span></span></router-link></div>
+                        }}</span></span></a></div>
         </div>
     </div>
     <p>&nbsp;</p>
